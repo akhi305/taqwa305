@@ -52,7 +52,7 @@ run();
  
 });
 
-app.get("/success" ,(req ,res) =>{
+app.post("/success" ,(req ,res) =>{
     res.redirect("/")
 })
 
