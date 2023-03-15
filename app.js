@@ -48,12 +48,7 @@ async function run() {
  
 run();
 
-if(response.statusCode === 200){
     res.sendFile(__dirname + "/success.html")
-}else{
-    res.send(__dirname + "/failure.html")
-}
- 
  
 });
 
